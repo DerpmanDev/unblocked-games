@@ -1,0 +1,85 @@
+body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .board {
+      display: flex;
+      flex-wrap: wrap;
+      width: 300px;
+      margin: 0 auto;
+      margin-top: 30px;
+    }
+
+    .cell {
+      box-sizing: border-box;
+      width: 100px;
+      height: 100px;
+      border: 1px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .cell.X {
+      color: var(--x-color);
+    }
+
+    .cell.O {
+      color: var(--o-color);
+    }
+
+    .cell.win {
+      background-color: #e6e6e6;
+    }
+
+    .dark-mode-switch {
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      font-size: 14px;
+    }
+
+    .dark-mode-switch input[type="checkbox"] {
+      margin-right: 5px;
+    }
+
+    .dark-mode {
+      --bg-color: #333;
+      --text-color: #fff;
+      --x-color: #fff;
+      --o-color: #fff;
+    }
+
+    .light-mode {
+      --bg-color: #fff;
+      --text-color: #333;
+      --x-color: #000;
+      --o-color: #000;
+    }
+
+    .move-animation {
+      animation: moveScale 0.3s ease-in-out;
+    }
+
+    @keyframes moveScale {
+      0% {
+        transform: scale(0);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
