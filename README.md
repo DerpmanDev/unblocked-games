@@ -10,5 +10,6 @@ This repository is part of the DerpmanDev homepage. (https://derpmandev.uk.ms)
 * [Chess](https://derpmandev.uk.ms/unblocked-games/chess)
 * [2048](https://derpmandev.uk.ms/unblocked-games/2048)
 * [1v1.lol](https://derpmandev.uk.ms/unblocked-games/1v1)
+* [Run3](https://derpmandev.uk.ms/unblocked-games/run3)
 
 This project is currently being maintained by [me.](https://github.com/DerpmanDev)
