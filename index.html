@@ -5,13 +5,27 @@
   <title>Games | Derpman's website</title>
 <link rel="stylesheet" href="css/style.css">
 <link rel="icon" type="image/x-icon" href="img/icon.png">
+ <style>
+input {
+border-radius:20px;
+border-width:0px;
+text-align:center;
+width: 300px;
+outline: none;
+transition: 0.5s;
+}
+input:hover {
+width: 520px;
+transition: 0.5s;
+opacity: 10px;
+outline: none;
+</style>
 </head>
 <body>
   <h1>Games</h1>
   <div class="search-bar">
     <form id="searchForm">
       <input type="text" id="searchInput" placeholder="Enter search query">
-      <input type="submit" value="Search">
     </form>
   </div>
 <div id="searchMessage" style="display: none; color: red; margin-top: 10px;"></div>
