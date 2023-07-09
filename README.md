@@ -1,4 +1,4 @@
-# Unblocked Games
+# 🛑 This project will be unmaintained until the next school year starts.
 This repository includes many unblocked games for school. 
 
 This repository is part of the DerpmanDev homepage. (https://derpmandev.uk.ms)
